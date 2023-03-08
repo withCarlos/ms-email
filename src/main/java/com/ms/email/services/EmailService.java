@@ -13,10 +13,8 @@ import java.time.LocalDateTime;
 
 @Service
 public class EmailService {
-
     @Autowired
     EmailRepository emailRepository;
-
     @Autowired
     private JavaMailSender emailSender;
 
